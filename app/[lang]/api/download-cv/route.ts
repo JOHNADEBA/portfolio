@@ -500,7 +500,7 @@ function generateCVHTML(data: any, lang: string) {
             <div class="cv-contact">
               <p>${data.contact.phone} | ${data.contact.email}</p>
               <p>${data.contact.location}</p>
-              <p>${data.contact.portfolio} | ${data.contact.linkedin} | ${data.contact.github}</p>
+              <p>${data.contact.linkedin} | ${data.contact.github} | ${data.contact.portfolio}</p>
             </div>
           </div>
 
