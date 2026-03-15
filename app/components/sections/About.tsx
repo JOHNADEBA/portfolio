@@ -138,7 +138,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
       ref={containerRef}
       className="section-padding relative overflow-hidden bg-gradient-to-b from-secondary-50/50 to-transparent dark:from-secondary-900/20"
     >
-      {/* Background grid pattern */}
+      {/* Background elements */}
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff10_1px,transparent_1px),linear-gradient(to_bottom,#ffffff10_1px,transparent_1px)] bg-[size:40px_40px] opacity-5" />
 
       {/* Animated gradient orbs */}
@@ -169,7 +169,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
         />
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start mt-20">
-          {/* Left column - Image, Quote, and CTA Buttons */}
+          {/* Left column - Image, Stats, Quote, and CTA Buttons */}
           <FadeIn delay={0.2}>
             <div className="space-y-8">
               {/* Image section */}
@@ -188,7 +188,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                     {/* Gradient border with animation */}
                     <div className="absolute inset-0 bg-gradient-to-br from-primary-500 via-secondary-500 to-accent-500 rounded-full animate-gradient-shift bg-size-300 blur-sm" />
 
-                    {/* Image container - circular with dark overlay for better contrast */}
+                    {/* Image container */}
                     <div className="absolute inset-[3px] bg-secondary-900 rounded-full overflow-hidden">
                       <div className="relative w-full h-full">
                         <Image
@@ -199,7 +199,6 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                           sizes="(max-width: 768px) 256px, 288px"
                           priority
                         />
-                        {/* Dark overlay to make white background less prominent */}
                         <div className="absolute inset-0 bg-gradient-to-t from-secondary-900/30 via-transparent to-transparent" />
                       </div>
 
@@ -237,7 +236,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                   />
                 </motion.div>
 
-                {/* Tech stack badges - DESKTOP VERSION (exactly as before) */}
+                {/* Tech stack badges - DESKTOP */}
                 <div className="absolute -right-12 top-1/2 -translate-y-1/2 space-y-3 z-20 hidden sm:block">
                   {techStack.map((tech, i) => (
                     <motion.div
@@ -252,7 +251,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                   ))}
                 </div>
 
-                {/* Experience badge - positioned exactly as before */}
+                {/* Experience badge */}
                 <motion.div
                   initial={{ scale: 0 }}
                   animate={{ scale: 1 }}
@@ -271,7 +270,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                 </motion.div>
               </div>
 
-              {/* Tech stack badges - MOBILE VERSION (below image, not overlapping) */}
+              {/* Tech stack badges - MOBILE */}
               <div className="flex flex-wrap justify-center gap-2 mt-4 sm:hidden">
                 {techStack.map((tech, i) => (
                   <motion.div
@@ -286,7 +285,47 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                 ))}
               </div>
 
-              {/* Quote - exactly as before */}
+              {/* ===== MOVED STATS GRID HERE (before quote) ===== */}
+              <motion.div
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: 0.65 }}
+                className="grid grid-cols-2 gap-4"
+              >
+                {stats.map((stat, index) => (
+                  <motion.div
+                    key={index}
+                    whileHover={{ scale: 1.05, y: -5 }}
+                    className="relative group"
+                  >
+                    <div
+                      className={`absolute inset-0 bg-gradient-to-r ${stat.color} rounded-2xl blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-500`}
+                    />
+
+                    <div className="relative bg-gradient-to-br from-secondary-900/50 to-secondary-800/50 backdrop-blur-sm rounded-2xl p-5 border border-secondary-800 hover:border-primary-500/50 transition-all duration-300">
+                      <stat.icon className="w-6 h-6 mb-3 text-primary-400" />
+                      <div className="text-3xl font-bold text-white mb-1">
+                        {stat.value}
+                      </div>
+                      <div className="text-xs text-secondary-400 font-medium">
+                        {stat.label}
+                      </div>
+                      <div className="text-xs text-secondary-500 mt-1">
+                        {stat.description}
+                      </div>
+
+                      <motion.div
+                        className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-primary-500 to-secondary-500"
+                        initial={{ scaleX: 0 }}
+                        whileHover={{ scaleX: 1 }}
+                        transition={{ duration: 0.3 }}
+                      />
+                    </div>
+                  </motion.div>
+                ))}
+              </motion.div>
+
+              {/* Quote */}
               <motion.div
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -335,7 +374,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                 </div>
               </motion.div>
 
-              {/* Call to action buttons - exactly as before */}
+              {/* Call to action buttons */}
               <motion.div
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -367,7 +406,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
             </div>
           </FadeIn>
 
-          {/* Right column - Content (exactly as before) */}
+          {/* Right column - Content with Education and Certifications */}
           <FadeIn delay={0.3}>
             <div className="space-y-8">
               {/* Welcome badge */}
@@ -386,7 +425,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                 </span>
               </motion.div>
 
-              {/* Title with animated gradient */}
+              {/* Title */}
               <motion.h3
                 initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -435,45 +474,95 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                 ))}
               </motion.div>
 
-              {/* Stats grid */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6 }}
-                className="grid grid-cols-2 gap-4 mt-8"
-              >
-                {stats.map((stat, index) => (
-                  <motion.div
-                    key={index}
-                    whileHover={{ scale: 1.05, y: -5 }}
-                    className="relative group"
-                  >
-                    <div
-                      className={`absolute inset-0 bg-gradient-to-r ${stat.color} rounded-2xl blur-xl opacity-0 group-hover:opacity-30 transition-opacity duration-500`}
-                    />
+              {/* Education Section */}
+              {dictionary.about.education && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.55 }}
+                  className="mt-8"
+                >
+                  <h4 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                    <span className="w-1 h-6 bg-gradient-to-b from-primary-500 to-secondary-500 rounded-full"></span>
+                    {dictionary.about.education.title || "Education"}
+                  </h4>
+                  <div className="space-y-4">
+                    {dictionary.about.education.items.map(
+                      (edu: any, idx: number) => (
+                        <motion.div
+                          key={idx}
+                          initial={{ opacity: 0, x: -20 }}
+                          animate={{ opacity: 1, x: 0 }}
+                          transition={{ delay: 0.6 + idx * 0.1 }}
+                          className="bg-gradient-to-r from-secondary-900/50 to-secondary-800/50 rounded-xl p-4 border border-secondary-800"
+                        >
+                          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-2">
+                            <h5 className="text-white font-semibold">
+                              {edu.degree}
+                            </h5>
+                            <span className="text-xs text-primary-400 bg-primary-500/10 px-3 py-1 rounded-full border border-primary-500/30 whitespace-nowrap">
+                              {edu.startDate} — {edu.endDate}
+                            </span>
+                          </div>
+                          <p className="text-secondary-400 text-sm">
+                            {edu.institution}
+                          </p>
+                        </motion.div>
+                      ),
+                    )}
+                  </div>
+                </motion.div>
+              )}
 
-                    <div className="relative bg-gradient-to-br from-secondary-900/50 to-secondary-800/50 backdrop-blur-sm rounded-2xl p-5 border border-secondary-800 hover:border-primary-500/50 transition-all duration-300">
-                      <stat.icon className="w-6 h-6 mb-3 text-primary-400" />
-                      <div className="text-3xl font-bold text-white mb-1">
-                        {stat.value}
-                      </div>
-                      <div className="text-xs text-secondary-400 font-medium">
-                        {stat.label}
-                      </div>
-                      <div className="text-xs text-secondary-500 mt-1">
-                        {stat.description}
-                      </div>
-
-                      <motion.div
-                        className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-primary-500 to-secondary-500"
-                        initial={{ scaleX: 0 }}
-                        whileHover={{ scaleX: 1 }}
-                        transition={{ duration: 0.3 }}
-                      />
-                    </div>
-                  </motion.div>
-                ))}
-              </motion.div>
+              {/* Certifications Section */}
+              {dictionary.about.certifications && (
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.6 }}
+                  className="mt-8"
+                >
+                  <h4 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                    <span className="w-1 h-6 bg-gradient-to-b from-primary-500 to-secondary-500 rounded-full"></span>
+                    {dictionary.about.certifications.title || "Certifications"}
+                  </h4>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                    {dictionary.about.certifications.items.map(
+                      (cert: any, idx: number) => (
+                        <motion.div
+                          key={idx}
+                          initial={{ opacity: 0, scale: 0.95 }}
+                          animate={{ opacity: 1, scale: 1 }}
+                          transition={{ delay: 0.65 + idx * 0.05 }}
+                          whileHover={{ scale: 1.02, y: -2 }}
+                          className="bg-gradient-to-r from-secondary-900/30 to-secondary-800/30 rounded-xl p-4 border border-secondary-800 hover:border-primary-500/50 transition-all duration-300"
+                        >
+                          <div className="flex items-start gap-3">
+                            <div className="w-8 h-8 rounded-full bg-gradient-to-r from-primary-500/20 to-secondary-500/20 flex items-center justify-center flex-shrink-0 mt-0.5">
+                              <Award size={14} className="text-primary-400" />
+                            </div>
+                            <div className="flex-1 min-w-0">
+                              <h5 className="text-white text-sm font-medium mb-1 break-words">
+                                {cert.name}
+                              </h5>
+                              {cert.issuer && (
+                                <p className="text-secondary-400 text-xs mb-1">
+                                  {cert.issuer}
+                                </p>
+                              )}
+                              <p className="text-primary-400 text-[10px] font-medium">
+                                {cert.startDate && cert.endDate
+                                  ? `${cert.startDate} — ${cert.endDate}`
+                                  : cert.date}
+                              </p>
+                            </div>
+                          </div>
+                        </motion.div>
+                      ),
+                    )}
+                  </div>
+                </motion.div>
+              )}
             </div>
           </FadeIn>
         </div>

@@ -99,10 +99,46 @@ const cvData = {
         ],
       },
     ],
-    education:
-      "Bachelor of Science in Computer Science  Institut Supérieur De Formation Professionelle",
+    education: [
+      {
+        degree: "Bachelor of Science in Computer Science",
+        institution: "Institut Supérieur De Formation Professionelle",
+        startDate: "Sep 2012",
+        endDate: "Aug 2016",
+      },
+    ],
     certifications: [
-      "JAVA Certification — National Institute of Information Technology",
+      {
+        name: "JAVA Certification",
+        issuer: "National Institute of Information Technology",
+        startDate: "Dec 2017",
+        endDate: "Nov 2019",
+      },
+      {
+        name: "Amadeus Certification",
+        issuer: "Amadeus",
+        date: "30 Nov 2016",
+      },
+      {
+        name: "Travelport - Galileo Certification",
+        issuer: "Travelport",
+        date: "21 Feb 2017",
+      },
+      {
+        name: "Sabre Certification",
+        issuer: "Sabre",
+        date: "2 May 2014",
+      },
+      {
+        name: "Basic Airfares and Ticketing",
+        issuer: "IATA",
+        date: "17-21 Mar 2014",
+      },
+      {
+        name: "Desktop Publishing",
+        issuer: "Youth Empowerment Computers",
+        date: "7 Jul 2008",
+      },
     ],
     languages: ["English: Fluent", "Slovenian: A2", "German: A1"],
   },
@@ -201,10 +237,46 @@ const cvData = {
         ],
       },
     ],
-    education:
-      "Bachelor of Science in Computer Science  Institut Supérieur De Formation Professionelle",
+    education: [
+      {
+        degree: "Bachelor of Science in Computer Science",
+        institution: "Institut Supérieur De Formation Professionelle",
+        startDate: "Sep 2012",
+        endDate: "Aug 2016",
+      },
+    ],
     certifications: [
-      "JAVA Certification — National Institute of Information Technology",
+      {
+        name: "JAVA Certification",
+        issuer: "National Institute of Information Technology",
+        startDate: "Dec 2017",
+        endDate: "Nov 2019",
+      },
+      {
+        name: "Amadeus Certification",
+        issuer: "Amadeus",
+        date: "30 Nov 2016",
+      },
+      {
+        name: "Travelport - Galileo Certification",
+        issuer: "Travelport",
+        date: "21 Feb 2017",
+      },
+      {
+        name: "Sabre Certification",
+        issuer: "Sabre",
+        date: "2 May 2014",
+      },
+      {
+        name: "Basic Airfares and Ticketing",
+        issuer: "IATA",
+        date: "17-21 Mar 2014",
+      },
+      {
+        name: "Desktop Publishing",
+        issuer: "Youth Empowerment Computers",
+        date: "7 Jul 2008",
+      },
     ],
     languages: ["Angleščina: tekoče", "Slovenščina: A2", "Nemščina: A1"],
   },
@@ -303,10 +375,46 @@ const cvData = {
         ],
       },
     ],
-    education:
-      "Bachelor of Science in Informatik  Institut Supérieur De Formation Professionelle",
+    education: [
+      {
+        degree: "Bachelor of Science in Computer Science",
+        institution: "Institut Supérieur De Formation Professionelle",
+        startDate: "Sep 2012",
+        endDate: "Aug 2016",
+      },
+    ],
     certifications: [
-      "JAVA-Zertifizierung — Nationales Institut für Informationstechnologie",
+      {
+        name: "JAVA Certification",
+        issuer: "National Institute of Information Technology",
+        startDate: "Dec 2017",
+        endDate: "Nov 2019",
+      },
+      {
+        name: "Amadeus Certification",
+        issuer: "Amadeus",
+        date: "30 Nov 2016",
+      },
+      {
+        name: "Travelport - Galileo Certification",
+        issuer: "Travelport",
+        date: "21 Feb 2017",
+      },
+      {
+        name: "Sabre Certification",
+        issuer: "Sabre",
+        date: "2 May 2014",
+      },
+      {
+        name: "Basic Airfares and Ticketing",
+        issuer: "IATA",
+        date: "17-21 Mar 2014",
+      },
+      {
+        name: "Desktop Publishing",
+        issuer: "Youth Empowerment Computers",
+        date: "7 Jul 2008",
+      },
     ],
     languages: ["Englisch: Fließend", "Slowenisch: A2", "Deutsch: A1"],
   },
@@ -500,7 +608,8 @@ function generateCVHTML(data: any, lang: string) {
             <div class="cv-contact">
               <p>${data.contact.phone} | ${data.contact.email}</p>
               <p>${data.contact.location}</p>
-              <p>${data.contact.linkedin} | ${data.contact.github} | ${data.contact.portfolio}</p>
+              <p>${data.contact.linkedin} | ${data.contact.github}</p>
+              <p>${data.contact.portfolio}</p>
             </div>
           </div>
 
@@ -545,25 +654,62 @@ function generateCVHTML(data: any, lang: string) {
               .join("")}
           </div>
 
-          <!-- Education -->
-          <div class="cv-section">
-            <h3 class="cv-section-title">${titles.education}</h3>
-            <p class="cv-text">${data.education}</p>
-          </div>
+          <!-- Education Section -->
+<div class="cv-section">
+  <h3 class="cv-section-title">${titles.education}</h3>
+  ${
+    Array.isArray(data.education)
+      ? data.education
+          .map(
+            (edu: any) => `
+      <div class="cv-education-item" style="margin-bottom: 8px;">
+        <p style="font-weight: bold; font-size: 12px; margin-bottom: 2px;">${edu.degree}</p>
+        <p style="font-size: 11px; color: #555; margin-bottom: 2px;">${edu.institution}</p>
+        <p style="font-size: 10px; color: #777;">${edu.startDate} — ${edu.endDate}</p>
+      </div>
+    `,
+          )
+          .join("")
+      : `<p class="cv-text">${data.education}</p>`
+  }
+</div>
 
-          <!-- Certifications -->
-          <div class="cv-section">
-            <h3 class="cv-section-title">${titles.certifications}</h3>
-            <ul class="cv-list">
-              ${data.certifications
-                .map(
-                  (cert: string) => `
-                <li class="cv-list-item">${cert}</li>
-              `,
-                )
-                .join("")}
-            </ul>
-          </div>
+<!-- Certifications Section -->
+<div class="cv-section">
+  <h3 class="cv-section-title">${titles.certifications}</h3>
+  <ul class="cv-list" style="list-style-type: none; padding-left: 0;">
+    ${
+      Array.isArray(data.certifications)
+        ? data.certifications
+            .map(
+              (cert: any) => `
+        <li class="cv-list-item" style="margin-bottom: 6px; position: relative; padding-left: 15px;">
+          <span style="font-weight: 500;">${cert.name}</span>
+          ${cert.issuer ? `<span style="color: #555;"> — ${cert.issuer}</span>` : ""}
+          <br>
+          <span style="font-size: 10px; color: #777;">
+            ${
+              cert.startDate && cert.endDate
+                ? `${cert.startDate} — ${cert.endDate}`
+                : cert.date
+                  ? cert.date
+                  : ""
+            }
+          </span>
+        </li>
+      `,
+            )
+            .join("")
+        : data.certifications
+            .map(
+              (cert: string) => `
+        <li class="cv-list-item">${cert}</li>
+      `,
+            )
+            .join("")
+    }
+  </ul>
+</div>
 
           <!-- Languages -->
           <div class="cv-section">

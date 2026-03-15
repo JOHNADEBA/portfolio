@@ -30,6 +30,53 @@
   "about": {
     "title": "Über mich",
     "subtitle": "Lernen Sie die Person hinter dem Code kennen",
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "degree": "Bachelor of Science in Computer Science",
+          "institution": "Institut Supérieur De Formation Professionelle",
+          "startDate": "Sep 2012",
+          "endDate": "Aug 2016"
+        }
+      ]
+    },
+    "certifications": {
+      "title": "Certifications",
+      "items": [
+        {
+          "name": "JAVA Certification",
+          "issuer": "National Institute of Information Technology",
+          "startDate": "Dec 2017",
+          "endDate": "Nov 2019"
+        },
+        {
+          "name": "Amadeus Certification",
+          "issuer": "Amadeus",
+          "date": "30 Nov 2016"
+        },
+        {
+          "name": "Travelport - Galileo Certification",
+          "issuer": "Travelport",
+          "date": "21 Feb 2017"
+        },
+        {
+          "name": "Sabre Certification",
+          "issuer": "Sabre",
+          "date": "2 May 2014"
+        },
+        {
+          "name": "Basic Airfares and Ticketing",
+          "issuer": "IATA",
+          "date": "17-21 Mar 2014"
+        },
+        {
+          "name": "Desktop Publishing",
+          "issuer": "Youth Empowerment Computers",
+          "date": "7 Jul 2008"
+        }
+      ]
+    },
     "available": "Für Möglichkeiten verfügbar",
     "creative": "Kreativ",
     "problem_solver": "Problemlöser",
