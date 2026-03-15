@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "title": "John Adeba - Senior Software Engineer",
+    "description": "Senior Software Engineer specializing in React, Next.js, Node.js, and full-stack development"
+  },
+  "not-found": {
+    "title": "Page Not Found",
+    "description": "Could not find the requested resource.",
+    "back-home": "Return Home"
+  },
+  "navigation": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "download_cv": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "John Adeba",
+    "title": "Senior Software Engineer",
+    "subtitle": "Building exceptional digital experiences with modern web technologies",
+    "badge": "✨ Open to work · Available now",
+    "cta": {
+      "view_work": "View My Work",
+      "contact_me": "Contact Me"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Get to know the person behind the code",
+    "available": "Available for opportunities",
+    "creative": "Creative",
+    "problem_solver": "Problem Solver",
+    "quote": "Building scalable solutions with clean code and great user experiences",
+    "lets_connect": "Let's connect",
+    "work_together": "Let's Work Together",
+    "download_resume": "Download Resume",
+    "years_experience_short": "Years of\nExperience",
+    "tech_stack": {
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "nodejs": "Node.js",
+      "python": "Python"
+    },
+    "achievements": {
+      "launches": "Collaborated on successful product launches",
+      "mentored": "Mentored junior developers",
+      "success_rate": "100% project delivery success rate"
+    },
+    "stats": {
+      "years_experience": "Years Experience",
+      "years_experience_value": "8+",
+      "years_experience_desc": "In software development",
+      "projects_completed": "Projects Completed",
+      "projects_completed_value": "50+",
+      "projects_completed_desc": "Across various industries",
+      "happy_clients": "Happy Clients",
+      "happy_clients_value": "30+",
+      "happy_clients_desc": "Worldwide",
+      "technologies": "Technologies",
+      "technologies_value": "20+",
+      "technologies_desc": "In my toolkit"
+    }
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Technologies I work with",
+    "proficient": "Proficient",
+    "learning": "Learning",
+    "additional_title": "Additional",
+    "tools_expertise": "Tools & Expertise",
+    "additional_tools": {
+      "terminal": "Terminal",
+      "system_design": "System Design",
+      "performance": "Performance",
+      "architecture": "Architecture"
+    },
+    "stats": {
+      "years_experience": "Years Experience",
+      "years_experience_value": "8+",
+      "technologies": "Technologies",
+      "technologies_value": "20+",
+      "projects": "Projects",
+      "projects_value": "50+",
+      "certifications": "Certifications",
+      "certifications_value": "5+"
+    },
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Database",
+      "devops": "DevOps & Tools",
+      "other": "Other"
+    },
+    "items": {
+      "frontend": "HTML, CSS, SASS, Tailwind CSS, React, Next.js, Angular, AngularJS, Vue.js, TypeScript, Redux, Angular Material, PrimeNG",
+      "backend": "Node.js, Express, NestJS, Python, PHP (CodeIgniter)",
+      "database": "PostgreSQL, MySQL, MongoDB, Prisma ORM",
+      "devops": "Docker, Git (BitBucket, GitLab), Jira, Confluence, Jest, Postman, Linux",
+      "other": "RESTful APIs, Keycloak, Leaflet, Chart.js, GeoJSON, Agile/Scrum"
+    }
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "subtitle": "My professional journey",
+    "jobs": [
+      {
+        "company": "John Adeba s.p. - Ljubljana, Slovenia",
+        "role": "Senior Software Engineer | Jan 2023 - Present",
+        "points": [
+          "Engineered migration of legacy PHP CRM to modern Next.js application, improving performance by 40% and enhancing developer productivity",
+          "Contributed to a government project enabling secure communication between police and the Ministry of Justice using Angular",
+          "Implemented real-time data synchronization and payment processing across multiple applications",
+          "Optimized API performance, reducing response times by 30% through query tuning and caching"
+        ],
+        "tech": "Next.js, React, Node.js, Tailwind CSS, Python, NestJS, Prisma, Jest, PostgreSQL, Bitbucket, Jira, Confluence, Angular, Vue"
+      },
+      {
+        "company": "Gamanza - Hybrid",
+        "role": "Senior Software Engineer | Oct 2023 - Dec 2024",
+        "points": [
+          "Contributed to frontend development for an online casino platform using React/Next.js and TypeScript",
+          "Collaborated on backend microservices in Node.js/NestJS with secure payment integration",
+          "Implemented comprehensive Jest testing pipelines ensuring high-quality releases",
+          "Designed and tested APIs using Postman for robust integration and validation"
+        ],
+        "tech": "React, Next.js, Node.js, NestJS, MUI, Jest, PostgreSQL, Postman, GitLab, Jira, Confluence"
+      },
+      {
+        "company": "Endava - Hybrid",
+        "role": "Senior Software Engineer | Feb 2022 - Dec 2022",
+        "points": [
+          "Integrated Keycloak authentication for a streaming platform, managing sessions and security workflows",
+          "Co-founded the \"School of Angular\" mentoring initiative to elevate team proficiency",
+          "Enhanced application UX and security with improved authentication and user flows"
+        ],
+        "tech": "AngularJS, Angular, PrimeNG, TypeScript, Keycloak, BitBucket, Jira, Confluence"
+      },
+      {
+        "company": "Elmibit - Remote",
+        "role": "Full-Stack Developer | Apr 2021 - Jan 2022",
+        "points": [
+          "Built a full agricultural management system spanning the farming lifecycle",
+          "Designed data visualization dashboards with Vue.js, Chart.js, and Leaflet",
+          "Managed cross-border data synchronization (Brazil, Spain, Slovenia)",
+          "Developed drone navigation coordinates for vineyard optimization"
+        ],
+        "tech": "Vue.js, CodeIgniter (PHP), PostgreSQL, Leaflet, Chart.js, Java, Linux"
+      },
+      {
+        "company": "Diptour Limited",
+        "role": "Software Engineer | Jun 2016 - Dec 2019",
+        "points": [
+          "Developed a full-stack travel management platform using React and Express.js",
+          "Designed REST APIs and database schemas to support scalable service architecture"
+        ],
+        "tech": "HTML, CSS, React, Express.js, SQL"
+      },
+      {
+        "company": "House 53/54",
+        "role": "IT Assistant | Feb 2010 - Jan 2012",
+        "points": [
+          "Maintained IT infrastructure and company website",
+          "Supported database management and troubleshooting operations"
+        ],
+        "tech": "HTML, CSS, JavaScript, PHP, SQL, MsOffice"
+      },
+      {
+        "company": "Youth Empowerment Computers",
+        "role": "Instructor | Jul 2008 - Apr 2009",
+        "points": [
+          "Taught desktop publishing fundamentals and design tools",
+          "Developed a structured learning curriculum for aspiring designers"
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Some of my recent work",
+    "view_all_on_git": "View all on GitHub",
+    "view_more_projects": "View more projects",
+    "view_project": "Live Demo",
+    "source_code": "Code",
+    "tech_count": "tech",
+    "stat_total_projects": "Total Projects",
+    "stat_total_projects_value": "15+",
+    "stat_open_source": "Open Source",
+    "stat_open_source_value": "8",
+    "stat_stars_earned": "Stars Earned",
+    "stat_stars_earned_value": "250+",
+    "stat_contributions": "Contributions",
+    "stat_contributions_value": "500+",
+    "items": [
+      {
+        "title": "Real-time Data Dashboard",
+        "description": "Real-time data dashboard with WebSocket connections. Features live data streaming from multiple sources with interactive charts.",
+        "tags": [
+          "Vue.js",
+          "Python",
+          "WebSockets",
+          "Chart.js",
+          "Vercel",
+          "Render"
+        ],
+        "live_url": "https://data-visualization-umber-three.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/data-visualization"
+      },
+      {
+        "title": "Team Chat Application",
+        "description": "Real-time messaging platform with channels, rooms, direct messages.",
+        "tags": [
+          "Angular",
+          "Node.js",
+          "Express",
+          "Prisma",
+          "Neon",
+          "WebSocket",
+          "PostgreSQL",
+          "Vercel",
+          "Render"
+        ],
+        "live_url": "https://team-chat-gamma.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/team-chat"
+      },
+      {
+        "title": "Online Store",
+        "description": "Full-featured e-commerce platform with cart, checkout, and order management.",
+        "tags": ["Nextjs", "Nestjs", "Prisma", "Neon", "PostgreSQL", "Vercel"],
+        "live_url": "https://ecommerce-one-sable-77.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/ecommerce"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Have a project in mind? Let's work together",
+    "get_in_touch": "Get in touch",
+    "get_in_touch_subtitle": "I'd love to hear from you",
+    "connect_with_me": "Connect with me",
+    "response_time": "⚡ Usually responds within",
+    "response_time_value": "24 hours",
+    "send_message": "Send a message",
+    "send_message_subtitle": "I'll get back to you soon",
+    "name": "Name",
+    "name_required": "Name is required",
+    "name_placeholder": "John Doe",
+    "email": "Email",
+    "email_required": "Email is required",
+    "email_invalid": "Invalid email address",
+    "email_placeholder": "john@example.com",
+    "message": "Message",
+    "message_required": "Message is required",
+    "message_placeholder": "Your message...",
+    "send": "Send Message",
+    "sending": "Sending...",
+    "success": "Message sent successfully!",
+    "error": "Failed to send message. Please try again.",
+    "form_footer": "I'll respond within 24 hours. No spam, ever.",
+    "stat_response_time": "Response Time",
+    "stat_response_time_value": "< 24h",
+    "stat_projects_discussed": "Projects Discussed",
+    "stat_projects_discussed_value": "100+",
+    "stat_happy_clients": "Happy Clients",
+    "stat_happy_clients_value": "95%",
+    "info": {
+      "phone": "+386 31 733 559",
+      "email": "adebajohn@gmail.com",
+      "location": "Ljubljana, Slovenia",
+      "phone_label": "Call anytime",
+      "email_label": "Always available",
+      "location_label": "Based in Ljubljana"
+    }
+  },
+  "footer": {
+    "description": "Senior Software Engineer specializing in modern web technologies and creating exceptional digital experiences.",
+    "quick_links": "Quick Links",
+    "contact": "Contact",
+    "rights": "All rights reserved",
+    "made_with": "Made with",
+    "in": "in Slovenia"
+  },
+  "cv": {
+    "download": "Download CV",
+    "downloading": "Preparing your CV...",
+    "select_language": "Select language",
+    "english": "English",
+    "slovenian": "Slovenian",
+    "german": "German"
+  }
+}

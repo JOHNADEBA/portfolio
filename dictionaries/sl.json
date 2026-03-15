@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "title": "John Adeba - Višji programski inženir",
+    "description": "Višji programski inženir s specializacijo za React, Next.js, Node.js in razvoj celovitih rešitev"
+  },
+  "not-found": {
+    "title": "Stran ni najdena",
+    "description": "Zahtevanega vira ni bilo mogoče najti.",
+    "back-home": "Nazaj na domačo stran"
+  },
+  "navigation": {
+    "home": "Domov",
+    "about": "O meni",
+    "projects": "Projekti",
+    "experience": "Izkušnje",
+    "contact": "Kontakt",
+    "download_cv": "Prenesi CV"
+  },
+  "hero": {
+    "greeting": "Živjo, jaz sem",
+    "name": "John Adeba",
+    "title": "Višji programski inženir",
+    "subtitle": "Ustvarjam izjemne digitalne izkušnje s sodobnimi spletnimi tehnologijami",
+    "badge": "✨ Odprt za delo · Na voljo zdaj",
+    "cta": {
+      "view_work": "Ogled dela",
+      "contact_me": "Kontaktiraj me"
+    }
+  },
+  "about": {
+    "title": "O meni",
+    "subtitle": "Spoznajte osebo za kodo",
+    "available": "Na voljo za priložnosti",
+    "creative": "Kreativen",
+    "problem_solver": "Reševalec problemov",
+    "quote": "Gradim skalabilne rešitve s čisto kodo in odlično uporabniško izkušnjo",
+    "lets_connect": "Povežimo se",
+    "work_together": "Sodelujmo",
+    "download_resume": "Prenesi življenjepis",
+    "years_experience_short": "Let\nizkušenj",
+    "tech_stack": {
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "nodejs": "Node.js",
+      "python": "Python"
+    },
+    "achievements": {
+      "launches": "Sodeloval pri uspešnih lansiranjih izdelkov",
+      "mentored": "Mentoriral mlajšim razvijalcem",
+      "success_rate": "100% uspešnost dostave projektov"
+    },
+    "stats": {
+      "years_experience": "Let izkušenj",
+      "years_experience_value": "8+",
+      "years_experience_desc": "V razvoju programske opreme",
+      "projects_completed": "Zaključenih projektov",
+      "projects_completed_value": "50+",
+      "projects_completed_desc": "V različnih panogah",
+      "happy_clients": "Zadovoljnih strank",
+      "happy_clients_value": "30+",
+      "happy_clients_desc": "Po vsem svetu",
+      "technologies": "Tehnologij",
+      "technologies_value": "20+",
+      "technologies_desc": "V mojem naboru"
+    }
+  },
+  "skills": {
+    "title": "Tehnične veščine",
+    "subtitle": "Tehnologije, s katerimi delam",
+    "proficient": "Izkušen",
+    "learning": "Učenje",
+    "additional_title": "Dodatna",
+    "tools_expertise": "orodja in znanja",
+    "additional_tools": {
+      "terminal": "Terminal",
+      "system_design": "Sistemski dizajn",
+      "performance": "Zmogljivost",
+      "architecture": "Arhitektura"
+    },
+    "stats": {
+      "years_experience": "Let izkušenj",
+      "years_experience_value": "8+",
+      "technologies": "Tehnologij",
+      "technologies_value": "20+",
+      "projects": "Projektov",
+      "projects_value": "50+",
+      "certifications": "Certifikatov",
+      "certifications_value": "5+"
+    },
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Podatkovne baze",
+      "devops": "DevOps in orodja",
+      "other": "Drugo"
+    },
+    "items": {
+      "frontend": "HTML, CSS, SASS, Tailwind CSS, React, Next.js, Angular, AngularJS, Vue.js, TypeScript, Redux, Angular Material, PrimeNG",
+      "backend": "Node.js, Express, NestJS, Python, PHP (CodeIgniter)",
+      "database": "PostgreSQL, MySQL, MongoDB, Prisma ORM",
+      "devops": "Docker, Git (BitBucket, GitLab), Jira, Confluence, Jest, Postman, Linux",
+      "other": "RESTful API-ji, Keycloak, Leaflet, Chart.js, GeoJSON, Agile/Scrum"
+    }
+  },
+  "experience": {
+    "title": "Poklicne izkušnje",
+    "subtitle": "Moje poklicno potovanje",
+    "jobs": [
+      {
+        "company": "John Adeba s.p. - Ljubljana, Slovenija",
+        "role": "Višji programski inženir | jan 2023 - danes",
+        "points": [
+          "Izvedel migracijo zastarelega PHP CRM sistema na sodobno Next.js aplikacijo, izboljšal zmogljivost za 40% in povečal produktivnost razvijalcev.",
+          "Prispeval k vladnemu projektu za varno komunikacijo med policijo in ministrstvom za pravosodje z uporabo Angular.",
+          "Implementiral sinhronizacijo podatkov v realnem času in obdelavo plačil v več aplikacijah.",
+          "Optimiziral delovanje API-jev, zmanjšal odzivne čase za 30% s prilagoditvijo poizvedb in predpomnjenjem."
+        ],
+        "tech": "Tehnologije: Next.js, React, Node.js, Tailwind CSS, Python, NestJS, Prisma, Jest, PostgreSQL, Bitbucket, Jira, Confluence, Angular, Vue"
+      },
+      {
+        "company": "Gamanza - Hibridno",
+        "role": "Višji programski inženir | okt 2023 - dec 2024",
+        "points": [
+          "Prispeval k razvoju frontenda za platformo spletnih igralnic z uporabo React/Next.js in TypeScript.",
+          "Sodeloval pri razvoju zalednih mikrostoritev v Node.js/NestJS z varno integracijo plačil.",
+          "Implementiral celovite testne cevovode z Jest za zagotavljanje kakovostnih izdaj.",
+          "Načrtoval in testiral API-je z uporabo Postmana za robustno integracijo in validacijo."
+        ],
+        "tech": "Tehnologije: React, Next.js, Node.js, NestJS, MUI, Jest, PostgreSQL, Postman, GitLab, Jira, Confluence"
+      },
+      {
+        "company": "Endava — Hibridno",
+        "role": "Višji programski inženir | feb 2022 - dec 2022",
+        "points": [
+          "Integriral Keycloak avtentikacijo za pretočno platformo, upravljal seje in varnostne poteke.",
+          "Soustanovil mentorstvo \"Šola Angularja\" za dvig strokovnosti ekipe.",
+          "Izboljšal uporabniško izkušnjo in varnost aplikacije z izboljšano avtentikacijo in uporabniškimi tokovi."
+        ],
+        "tech": "Tehnologije: AngularJS, Angular, PrimeNG, TypeScript, Keycloak, BitBucket, Jira, Confluence"
+      },
+      {
+        "company": "Elmibit — Na daljavo",
+        "role": "Razvijalec celovitih rešitev | apr 2021 - jan 2022",
+        "points": [
+          "Zgradil celovit kmetijski sistem upravljanja, ki pokriva celoten kmetijski cikel.",
+          "Oblikoval nadzorne plošče za vizualizacijo podatkov z Vue.js, Chart.js in Leaflet.",
+          "Upravljal čezmejno sinhronizacijo podatkov (Brazilija, Španija, Slovenija).",
+          "Razvil koordinate za navigacijo dronov za optimizacijo vinogradov."
+        ],
+        "tech": "Tehnologije: Vue.js, CodeIgniter (PHP), PostgreSQL, Leaflet, Chart.js, Java, Linux"
+      },
+      {
+        "company": "Diptour Limited",
+        "role": "Programski inženir | jun 2016 - dec 2019",
+        "points": [
+          "Razvil celovito platformo za upravljanje potovanj z uporabo React in Express.js.",
+          "Oblikoval REST API-je in sheme podatkovnih baz za podporo skalabilni arhitekturi storitev."
+        ],
+        "tech": "Tehnologije: HTML, CSS, React, Express.js, SQL"
+      },
+      {
+        "company": "House 53/54",
+        "role": "Pomočnik za IT | feb 2010 - jan 2012",
+        "points": [
+          "Vzdrževal IT infrastrukturo in spletno stran podjetja.",
+          "Podpiral upravljanje podatkovnih baz in odpravljanje težav."
+        ],
+        "tech": "Tehnologije: HTML, CSS, JavaScript, PHP, SQL, MsOffice"
+      },
+      {
+        "company": "Youth Empowerment Computers",
+        "role": "Inštruktor | jul 2008 - apr 2009",
+        "points": [
+          "Poučeval osnove namiznega založništva in orodja za oblikovanje.",
+          "Razvil strukturiran učni načrt za bodoče oblikovalce."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projekti",
+    "subtitle": "Nekaj mojih nedavnih del",
+    "view_all_on_git": "Poglej vse na GitHubu",
+    "view_more_projects": "Poglej več projektov",
+    "view_project": "Poglej",
+    "source_code": "Koda",
+    "tech_count": "tehnologij",
+    "stat_total_projects": "Skupaj projektov",
+    "stat_total_projects_value": "15+",
+    "stat_open_source": "Odprta koda",
+    "stat_open_source_value": "8",
+    "stat_stars_earned": "Zvezdice",
+    "stat_stars_earned_value": "250+",
+    "stat_contributions": "Prispevki",
+    "stat_contributions_value": "500+",
+    "items": [
+      {
+        "title": "Nadzorna plošča v realnem času",
+        "description": "Nadzorna plošča v realnem času z WebSocket povezavami. Omogoča pretakanje podatkov v živo iz več virov z interaktivnimi grafikoni.",
+        "tags": [
+          "Vue.js",
+          "Python",
+          "WebSockets",
+          "Chart.js",
+          "Vercel",
+          "Render"
+        ],
+        "live_url": "https://data-visualization-umber-three.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/data-visualization"
+      },
+      {
+        "title": "Skupinski klepet",
+        "description": "Platforma za sporočanje v realnem času s kanali, sobami in neposrednimi sporočili.",
+        "tags": [
+          "Angular",
+          "Node.js",
+          "Express",
+          "Prisma",
+          "Neon",
+          "WebSocket",
+          "PostgreSQL",
+          "Vercel",
+          "Render"
+        ],
+        "live_url": "https://team-chat-gamma.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/team-chat"
+      },
+      {
+        "title": "Spletna trgovina",
+        "description": "Popolna e-trgovska platforma z nakupovalno košarico, plačilom in upravljanjem naročil.",
+        "tags": ["Nextjs", "Nestjs", "Prisma", "Neon", "PostgreSQL", "Vercel"],
+        "live_url": "https://ecommerce-one-sable-77.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/ecommerce"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Stopite v stik",
+    "subtitle": "Imate projekt v mislih? Sodelujmo",
+    "get_in_touch": "Stopite v stik",
+    "get_in_touch_subtitle": "Z veseljem vas bom slišal",
+    "connect_with_me": "Povežite se z mano",
+    "response_time": "⚡ Običajno odgovorim v",
+    "response_time_value": "24 urah",
+    "send_message": "Pošlji sporočilo",
+    "send_message_subtitle": "Kmalu vam bom odgovoril",
+    "name": "Ime",
+    "name_required": "Ime je obvezno",
+    "name_placeholder": "Janez Novak",
+    "email": "E-pošta",
+    "email_required": "E-pošta je obvezna",
+    "email_invalid": "Neveljaven e-poštni naslov",
+    "email_placeholder": "janez@primer.si",
+    "message": "Sporočilo",
+    "message_required": "Sporočilo je obvezno",
+    "message_placeholder": "Vaše sporočilo...",
+    "send": "Pošlji sporočilo",
+    "sending": "Pošiljanje...",
+    "success": "Sporočilo uspešno poslano!",
+    "error": "Pošiljanje sporočila ni uspelo. Poskusite znova.",
+    "form_footer": "Odgovorim v 24 urah. Brez vsiljene pošte.",
+    "stat_response_time": "Odzivni čas",
+    "stat_response_time_value": "< 24h",
+    "stat_projects_discussed": "Projektov",
+    "stat_projects_discussed_value": "100+",
+    "stat_happy_clients": "Zadovoljnih strank",
+    "stat_happy_clients_value": "95%",
+    "info": {
+      "phone": "+386 31 733 559",
+      "email": "adebajohn@gmail.com",
+      "location": "Ljubljana, Slovenija",
+      "phone_label": "Pokličite kadarkoli",
+      "email_label": "Vedno na voljo",
+      "location_label": "Sedež v Ljubljani"
+    }
+  },
+  "footer": {
+    "description": "Višji programski inženir, specializiran za sodobne spletne tehnologije in ustvarjanje izjemnih digitalnih izkušenj.",
+    "quick_links": "Hitre povezave",
+    "contact": "Kontakt",
+    "rights": "Vse pravice pridržane",
+    "made_with": "Narejeno z",
+    "in": "v Sloveniji"
+  },
+  "cv": {
+    "download": "Prenesi CV",
+    "downloading": "Pripravljam CV...",
+    "select_language": "Izberite jezik",
+    "english": "Angleščina",
+    "slovenian": "Slovenščina",
+    "german": "Nemščina"
+  }
+}

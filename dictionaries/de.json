@@ -1,0 +1,293 @@
+{
+  "metadata": {
+    "title": "John Adeba - Senior Softwareentwickler",
+    "description": "Senior Softwareentwickler mit Spezialisierung auf React, Next.js, Node.js und Full-Stack-Entwicklung"
+  },
+  "not-found": {
+    "title": "Seite nicht gefunden",
+    "description": "Die angeforderte Ressource konnte nicht gefunden werden.",
+    "back-home": "Zurück zur Startseite"
+  },
+  "navigation": {
+    "home": "Startseite",
+    "about": "Über mich",
+    "projects": "Projekte",
+    "experience": "Erfahrung",
+    "contact": "Kontakt",
+    "download_cv": "Lebenslauf herunterladen"
+  },
+  "hero": {
+    "greeting": "Hallo, ich bin",
+    "name": "John Adeba",
+    "title": "Senior Softwareentwickler",
+    "subtitle": "Entwicklung außergewöhnlicher digitaler Erlebnisse mit modernen Webtechnologien",
+    "badge": "✨ Offen für Arbeit · Jetzt verfügbar",
+    "cta": {
+      "view_work": "Meine Arbeit ansehen",
+      "contact_me": "Kontakt"
+    }
+  },
+  "about": {
+    "title": "Über mich",
+    "subtitle": "Lernen Sie die Person hinter dem Code kennen",
+    "available": "Für Möglichkeiten verfügbar",
+    "creative": "Kreativ",
+    "problem_solver": "Problemlöser",
+    "quote": "Baue skalierbare Lösungen mit sauberem Code und großartiger Benutzererfahrung",
+    "lets_connect": "Vernetzen wir uns",
+    "work_together": "Zusammenarbeiten",
+    "download_resume": "Lebenslauf herunterladen",
+    "years_experience_short": "Jahre\nErfahrung",
+    "tech_stack": {
+      "javascript": "JavaScript",
+      "typescript": "TypeScript",
+      "nodejs": "Node.js",
+      "python": "Python"
+    },
+    "achievements": {
+      "launches": "Zusammenarbeit an erfolgreichen Produkteinführungen",
+      "mentored": "Mentoring für Juniorenentwickler",
+      "success_rate": "100% Projekterfolgsquote"
+    },
+    "stats": {
+      "years_experience": "Jahre Erfahrung",
+      "years_experience_value": "8+",
+      "years_experience_desc": "In der Softwareentwicklung",
+      "projects_completed": "Abgeschlossene Projekte",
+      "projects_completed_value": "50+",
+      "projects_completed_desc": "In verschiedenen Branchen",
+      "happy_clients": "Zufriedene Kunden",
+      "happy_clients_value": "30+",
+      "happy_clients_desc": "Weltweit",
+      "technologies": "Technologien",
+      "technologies_value": "20+",
+      "technologies_desc": "In meinem Werkzeugkasten"
+    }
+  },
+  "skills": {
+    "title": "Technische Fähigkeiten",
+    "subtitle": "Technologien, mit denen ich arbeite",
+    "proficient": "Erfahren",
+    "learning": "Lernen",
+    "additional_title": "Zusätzliche",
+    "tools_expertise": "Werkzeuge & Kenntnisse",
+    "additional_tools": {
+      "terminal": "Terminal",
+      "system_design": "Systemdesign",
+      "performance": "Leistung",
+      "architecture": "Architektur"
+    },
+    "stats": {
+      "years_experience": "Jahre Erfahrung",
+      "years_experience_value": "8+",
+      "technologies": "Technologien",
+      "technologies_value": "20+",
+      "projects": "Projekte",
+      "projects_value": "50+",
+      "certifications": "Zertifizierungen",
+      "certifications_value": "5+"
+    },
+    "categories": {
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "database": "Datenbanken",
+      "devops": "DevOps & Werkzeuge",
+      "other": "Sonstiges"
+    },
+    "items": {
+      "frontend": "HTML, CSS, SASS, Tailwind CSS, React, Next.js, Angular, AngularJS, Vue.js, TypeScript, Redux, Angular Material, PrimeNG",
+      "backend": "Node.js, Express, NestJS, Python, PHP (CodeIgniter)",
+      "database": "PostgreSQL, MySQL, MongoDB, Prisma ORM",
+      "devops": "Docker, Git (BitBucket, GitLab), Jira, Confluence, Jest, Postman, Linux",
+      "other": "RESTful APIs, Keycloak, Leaflet, Chart.js, GeoJSON, Agile/Scrum"
+    }
+  },
+  "experience": {
+    "title": "Berufserfahrung",
+    "subtitle": "Meine berufliche Reise",
+    "jobs": [
+      {
+        "company": "John Adeba s.p. - Ljubljana, Slowenien",
+        "role": "Senior Softwareentwickler | Jan. 2023 - heute",
+        "points": [
+          "Entwickelte die Migration eines Legacy-PHP-CRM zu einer modernen Next.js-Anwendung, verbesserte die Leistung um 40% und steigerte die Entwicklerproduktivität.",
+          "Trug zu einem Regierungsprojekt bei, das sichere Kommunikation zwischen Polizei und Justizministerium mit Angular ermöglicht.",
+          "Implementierte Echtzeit-Datensynchronisation und Zahlungsabwicklung in mehreren Anwendungen.",
+          "Optimierte die API-Leistung, reduzierte Antwortzeiten um 30% durch Query-Optimierung und Caching."
+        ],
+        "tech": "Technologien: Next.js, React, Node.js, Tailwind CSS, Python, NestJS, Prisma, Jest, PostgreSQL, Bitbucket, Jira, Confluence, Angular, Vue"
+      },
+      {
+        "company": "Gamanza - Hybrid",
+        "role": "Senior Softwareentwickler | Okt. 2023 - Dez. 2024",
+        "points": [
+          "Trug zur Frontend-Entwicklung für eine Online-Casino-Plattform mit React/Next.js und TypeScript bei.",
+          "Arbeitete an Backend-Mikroservices in Node.js/NestJS mit sicherer Zahlungsintegration.",
+          "Implementierte umfassende Jest-Testpipelines zur Sicherstellung hochwertiger Releases.",
+          "Entwarf und testete APIs mit Postman für robuste Integration und Validierung."
+        ],
+        "tech": "Technologien: React, Next.js, Node.js, NestJS, MUI, Jest, PostgreSQL, Postman, GitLab, Jira, Confluence"
+      },
+      {
+        "company": "Endava — Hybrid",
+        "role": "Senior Softwareentwickler | Feb. 2022 - Dez. 2022",
+        "points": [
+          "Integrierte Keycloak-Authentifizierung für eine Streaming-Plattform, Verwaltung von Sitzungen und Sicherheitsabläufen.",
+          "Mitbegründer der \"School of Angular\"-Mentoring-Initiative zur Steigerung der Teamkompetenz.",
+          "Verbesserte Anwendungs-UX und Sicherheit durch verbesserte Authentifizierung und Benutzerabläufe."
+        ],
+        "tech": "Technologien: AngularJS, Angular, PrimeNG, TypeScript, Keycloak, BitBucket, Jira, Confluence"
+      },
+      {
+        "company": "Elmibit — Remote",
+        "role": "Full-Stack-Entwickler | Apr. 2021 - Jan. 2022",
+        "points": [
+          "Entwickelte ein vollständiges landwirtschaftliches Verwaltungssystem für den gesamten landwirtschaftlichen Lebenszyklus.",
+          "Gestaltete Datenvisualisierungs-Dashboards mit Vue.js, Chart.js und Leaflet.",
+          "Verwaltete grenzüberschreitende Datensynchronisation (Brasilien, Spanien, Slowenien).",
+          "Entwickelte Drohnen-Navigationskoordinaten zur Weinbergoptimierung."
+        ],
+        "tech": "Technologien: Vue.js, CodeIgniter (PHP), PostgreSQL, Leaflet, Chart.js, Java, Linux"
+      },
+      {
+        "company": "Diptour Limited",
+        "role": "Softwareentwickler | Jun. 2016 - Dez. 2019",
+        "points": [
+          "Entwickelte eine Full-Stack-Reiseverwaltungsplattform mit React und Express.js.",
+          "Entwarf REST-APIs und Datenbankschemata zur Unterstützung skalierbarer Service-Architektur."
+        ],
+        "tech": "Technologien: HTML, CSS, React, Express.js, SQL"
+      },
+      {
+        "company": "House 53/54",
+        "role": "IT-Assistent | Feb. 2010 - Jan. 2012",
+        "points": [
+          "Wartete IT-Infrastruktur und Unternehmenswebsite.",
+          "Unterstützte Datenbankverwaltung und Fehlerbehebungsvorgänge."
+        ],
+        "tech": "Technologien: HTML, CSS, JavaScript, PHP, SQL, MsOffice"
+      },
+      {
+        "company": "Youth Empowerment Computers",
+        "role": "Dozent | Jul. 2008 - Apr. 2009",
+        "points": [
+          "Unterrichtete Grundlagen der Desktop-Publishing- und Design-Tools.",
+          "Entwickelte einen strukturierten Lehrplan für angehende Designer."
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projekte",
+    "subtitle": "Einige meiner letzten Arbeiten",
+    "view_all_on_git": "Alle auf GitHub ansehen",
+    "view_more_projects": "Weitere Projekte ansehen",
+    "view_project": "Live-Demo",
+    "source_code": "Quellcode",
+    "tech_count": "Technologien",
+    "stat_total_projects": "Projekte insgesamt",
+    "stat_total_projects_value": "15+",
+    "stat_open_source": "Open Source",
+    "stat_open_source_value": "8",
+    "stat_stars_earned": "Sterne",
+    "stat_stars_earned_value": "250+",
+    "stat_contributions": "Beiträge",
+    "stat_contributions_value": "500+",
+    "items": [
+      {
+        "title": "Echtzeit-Daten-Dashboard",
+        "description": "Echtzeit-Daten-Dashboard mit WebSocket-Verbindungen. Bietet Live-Datenstreaming aus mehreren Quellen mit interaktiven Diagrammen.",
+        "tags": [
+          "Vue.js",
+          "Python",
+          "WebSockets",
+          "Chart.js",
+          "Vercel",
+          "Render"
+        ],
+        "live_url": "https://data-visualization-umber-three.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/data-visualization"
+      },
+      {
+        "title": "Team-Chat-Anwendung",
+        "description": "Echtzeit-Messaging-Plattform mit Kanälen, Räumen und Direktnachrichten.",
+        "tags": [
+          "Angular",
+          "Node.js",
+          "Express",
+          "Prisma",
+          "Neon",
+          "WebSocket",
+          "PostgreSQL",
+          "Vercel",
+          "Render"
+        ],
+        "live_url": "https://team-chat-gamma.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/team-chat"
+      },
+      {
+        "title": "Online-Shop",
+        "description": "Vollwertige E-Commerce-Plattform mit Warenkorb, Bezahlung und Auftragsverwaltung.",
+        "tags": ["Nextjs", "Nestjs", "Prisma", "Neon", "PostgreSQL", "Vercel"],
+        "live_url": "https://ecommerce-one-sable-77.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/ecommerce"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Haben Sie ein Projekt im Sinn? Lassen Sie uns zusammenarbeiten",
+    "get_in_touch": "Kontaktieren Sie mich",
+    "get_in_touch_subtitle": "Ich freue mich auf Ihre Nachricht",
+    "connect_with_me": "Verbinden Sie sich mit mir",
+    "response_time": "⚡ Ich antworte normalerweise innerhalb",
+    "response_time_value": "24 Stunden",
+    "send_message": "Nachricht senden",
+    "send_message_subtitle": "Ich werde mich bald bei Ihnen melden",
+    "name": "Name",
+    "name_required": "Name ist erforderlich",
+    "name_placeholder": "Max Mustermann",
+    "email": "E-Mail",
+    "email_required": "E-Mail ist erforderlich",
+    "email_invalid": "Ungültige E-Mail-Adresse",
+    "email_placeholder": "max@beispiel.de",
+    "message": "Nachricht",
+    "message_required": "Nachricht ist erforderlich",
+    "message_placeholder": "Ihre Nachricht...",
+    "send": "Nachricht senden",
+    "sending": "Senden...",
+    "success": "Nachricht erfolgreich gesendet!",
+    "error": "Nachricht konnte nicht gesendet werden. Bitte versuchen Sie es erneut.",
+    "form_footer": "Ich antworte innerhalb von 24 Stunden. Kein Spam.",
+    "stat_response_time": "Antwortzeit",
+    "stat_response_time_value": "< 24h",
+    "stat_projects_discussed": "Besprochene Projekte",
+    "stat_projects_discussed_value": "100+",
+    "stat_happy_clients": "Zufriedene Kunden",
+    "stat_happy_clients_value": "95%",
+    "info": {
+      "phone": "+386 31 733 559",
+      "email": "adebajohn@gmail.com",
+      "location": "Ljubljana, Slowenien",
+      "phone_label": "Rufen Sie jederzeit an",
+      "email_label": "Immer erreichbar",
+      "location_label": "Basis in Ljubljana"
+    }
+  },
+  "footer": {
+    "description": "Senior Softwareentwickler spezialisiert auf moderne Webtechnologien und die Schaffung außergewöhnlicher digitaler Erlebnisse.",
+    "quick_links": "Schnelllinks",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten",
+    "made_with": "Erstellt mit",
+    "in": "in Slowenien"
+  },
+  "cv": {
+    "download": "Lebenslauf herunterladen",
+    "downloading": "Lebenslauf wird vorbereitet...",
+    "select_language": "Sprache auswählen",
+    "english": "Englisch",
+    "slovenian": "Slowenisch",
+    "german": "Deutsch"
+  }
+}
