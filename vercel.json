@@ -1,0 +1,8 @@
+{
+  "functions": {
+    "app/[lang]/api/download-cv/route.ts": {
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  }
+}

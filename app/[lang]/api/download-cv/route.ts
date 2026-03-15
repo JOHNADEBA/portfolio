@@ -1,7 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import puppeteer from "puppeteer-core";
-// import chromium from "@sparticuz/chromium";
-import chromium from "@sparticuz/chromium-min";
+import chromium from "@sparticuz/chromium";
 
 // CV data in all languages - matching your original CV format
 const cvData = {
@@ -12,7 +11,7 @@ const cvData = {
       phone: "+386 31 733 559",
       email: "adebajohn@gmail.com",
       location: "Ljubljana, Slovenia",
-      portfolio: "https://devjayprojects.netlify.app",
+      portfolio: "https://portfolio-two-navy-15.vercel.app/en",
       linkedin: "https://www.linkedin.com/in/john-adeba-794738117/",
       github: "https://github.com/JOHNADEBA",
     },
@@ -114,9 +113,9 @@ const cvData = {
       phone: "+386 31 733 559",
       email: "adebajohn@gmail.com",
       location: "Ljubljana, Slovenija",
-      portfolio: "devjayprojects.netlify.app",
-      linkedin: "linkedin.com/in/john-adeba-794738117",
-      github: "github.com/JOHNADEBA",
+      portfolio: "https://portfolio-two-navy-15.vercel.app/sl",
+      linkedin: "https://www.linkedin.com/in/john-adeba-794738117/",
+      github: "https://github.com/JOHNADEBA",
     },
     summary:
       "Višji programski inženir z obsežnimi izkušnjami na področju razvoja celovitih rešitev, specializiran za sodobna JavaScript ogrodja (React, Angular, Vue.js) in zaledne tehnologije (Node.js, NestJS, Python). Dokazano uspešen pri zagotavljanju skalabilnih, visoko zmogljivih rešitev za vladne, finančne, e-trgovinske in kmetijske sektorje. Močan sodelavec in mentor s strastjo do čiste kode, agilnih praks in medfunkcijskega timskega dela.",
@@ -216,9 +215,9 @@ const cvData = {
       phone: "+386 31 733 559",
       email: "adebajohn@gmail.com",
       location: "Ljubljana, Slowenien",
-      portfolio: "devjayprojects.netlify.app",
-      linkedin: "linkedin.com/in/john-adeba-794738117",
-      github: "github.com/JOHNADEBA",
+      portfolio: "https://portfolio-two-navy-15.vercel.app/de",
+      linkedin: "https://www.linkedin.com/in/john-adeba-794738117/",
+      github: "https://github.com/JOHNADEBA",
     },
     summary:
       "Senior Softwareentwickler mit umfassender Erfahrung in der Full-Stack-Entwicklung, spezialisiert auf moderne JavaScript-Frameworks (React, Angular, Vue.js) und Backend-Technologien (Node.js, NestJS, Python). Nachweisliche Erfolge bei der Bereitstellung skalierbarer, leistungsstarker Lösungen für Regierungs-, Fintech-, E-Commerce- und Agrarsektoren. Starker Teamplayer und Mentor mit Leidenschaft für sauberen Code, agile Praktiken und funktionsübergreifende Zusammenarbeit.",
@@ -595,16 +594,22 @@ export async function GET(request: NextRequest) {
 
     let browser;
 
-    // Different launch strategies based on environment
-    if (process.env.NODE_ENV === "production") {
-      // Production (Vercel) - use chromium-min
+    // Vercel / production environment
+    if (process.env.VERCEL === "1" || process.env.NODE_ENV === "production") {
+      console.log("Running in production mode, using @sparticuz/chromium");
+
+      // Get the executable path
+      const executablePath = await chromium.executablePath();
+
       browser = await puppeteer.launch({
         args: chromium.args,
-        executablePath: await chromium.executablePath(),
+        executablePath: executablePath,
         headless: true,
       });
     } else {
-      // Development (macOS) - try multiple possible Chrome paths
+      // Local development fallback
+      console.log("Running in development mode, searching for Chrome");
+
       const chromePaths = [
         "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
         "/Applications/Chromium.app/Contents/MacOS/Chromium",
@@ -619,6 +624,7 @@ export async function GET(request: NextRequest) {
           const fs = require("fs");
           if (fs.existsSync(path)) {
             executablePath = path;
+            console.log(`Found Chrome at: ${path}`);
             break;
           }
         } catch (e) {
@@ -627,9 +633,7 @@ export async function GET(request: NextRequest) {
       }
 
       if (!executablePath) {
-        console.warn(
-          "No Chrome installation found, falling back to system default",
-        );
+        console.warn("No Chrome installation found, using default");
       }
 
       browser = await puppeteer.launch({
@@ -639,7 +643,6 @@ export async function GET(request: NextRequest) {
           "--disable-dev-shm-usage",
           "--disable-gpu",
           "--disable-software-rasterizer",
-          "--ignore-certificate-errors",
         ],
         executablePath: executablePath || undefined,
         headless: true,
@@ -658,10 +661,12 @@ export async function GET(request: NextRequest) {
     await browser.close();
 
     return new NextResponse(Buffer.from(pdf), {
+      status: 200,
       headers: {
         "Content-Type": "application/pdf",
         "Content-Disposition": `attachment; filename="John_Adeba_CV_${lang}.pdf"`,
         "Content-Length": pdf.length.toString(),
+        "Cache-Control": "no-cache",
       },
     });
   } catch (error) {
