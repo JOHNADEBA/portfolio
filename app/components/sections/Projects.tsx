@@ -43,6 +43,7 @@ export const Projects = ({ dictionary }: ProjectsProps) => {
     "/projects/data-viz.png",
     "/projects/team-chat.png",
     "/projects/ecommerce.png",
+    "/projects/ai-store.png",
   ];
 
   // Handle image error

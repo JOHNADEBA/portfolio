@@ -278,6 +278,13 @@
         "tags": ["Nextjs", "Nestjs", "Prisma", "Neon", "PostgreSQL", "Vercel"],
         "live_url": "https://ecommerce-one-sable-77.vercel.app",
         "github_url": "https://github.com/JOHNADEBA/ecommerce"
+      }, 
+      {
+        "title": "AI Travel Planner",
+        "description": "Plan your trip with a fully automated AI assistance",
+        "tags": ["Nextjs", "Tailwind", "Python", "Neon", "PostgreSQL", "Vercel", "Render"],
+        "live_url": "https://ai-travel-planner-alpha-puce.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/ai-travel-planner"
       }
     ]
   },
