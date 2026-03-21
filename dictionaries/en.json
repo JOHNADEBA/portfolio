@@ -285,6 +285,13 @@
         "tags": ["Nextjs", "Tailwind", "Python", "Neon", "PostgreSQL", "Vercel", "Render"],
         "live_url": "https://ai-travel-planner-alpha-puce.vercel.app",
         "github_url": "https://github.com/JOHNADEBA/ai-travel-planner"
+      }, 
+      {
+        "title": "Invoice Generator",
+        "description": "Create professional invoices with auto-save, download PDF, and cloud storage. Perfect for freelancers and small businesses.",
+        "tags": ["Nextjs", "Tailwind", "Clerk", "Neon", "PostgreSQL", "Prisma", "Vercel"],
+        "live_url": "https://invoice-generator-roan-eta.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/invoice-generator"
       }
     ]
   },

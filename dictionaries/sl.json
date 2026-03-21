@@ -280,11 +280,18 @@
         "github_url": "https://github.com/JOHNADEBA/ecommerce"
       }, 
       {
-        "title": "AI Travel Planner",
-        "description": "Plan your trip with a fully automated AI assistance",
+        "title": "AI Potovalni Načrtovalec",
+        "description": "Načrtujte svoje potovanje s popolnoma avtomatizirano pomočjo umetne inteligence",
         "tags": ["Nextjs", "Tailwind", "Python", "Neon", "PostgreSQL", "Vercel", "Render"],
         "live_url": "https://ai-travel-planner-alpha-puce.vercel.app",
         "github_url": "https://github.com/JOHNADEBA/ai-travel-planner"
+      }, 
+      {
+        "title": "Generator Računov",
+        "description": "Ustvarite profesionalne račune s samodejnim shranjevanjem, prenosom PDF in shranjevanjem v oblaku. Popolno za samostojne podjetnike in mala podjetja.",
+        "tags": ["Nextjs", "Tailwind", "Clerk", "Neon", "PostgreSQL", "Prisma", "Vercel"],
+        "live_url": "https://invoice-generator-roan-eta.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/invoice-generator"
       }
     ]
   },
