@@ -56,6 +56,7 @@ function buildCVData(lang: string) {
       database: `Database: ${dict.skills.items.database}`,
       devops: `DevOps & Tools: ${dict.skills.items.devops}`,
       other: `Other: ${dict.skills.items.other}`,
+      ai: `${dict.skills.categories.ai}: ${dict.skills.items.ai}`,
     },
     experience: dict.experience.jobs,
     education: dict.about.education.items,
@@ -243,6 +244,7 @@ function generateCVHTML(data: any, lang: string) {
             <p class="cv-text">• ${data.skills.database}</p>
             <p class="cv-text">• ${data.skills.devops}</p>
             <p class="cv-text">• ${data.skills.other}</p>
+            <p class="cv-text">• ${data.skills.ai}</p>
           </div>
 
           <!-- Professional Experience -->
