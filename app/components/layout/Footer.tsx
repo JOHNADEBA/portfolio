@@ -3,10 +3,11 @@
 import Link from "next/link";
 import { Heart, Github, Linkedin, Mail } from "lucide-react";
 import { motion } from "framer-motion";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 interface FooterProps {
   lang: string;
-  dictionary: any;
+  dictionary: Dictionary;
 }
 
 export const Footer = ({ lang, dictionary }: FooterProps) => {

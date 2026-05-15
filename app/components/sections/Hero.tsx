@@ -13,9 +13,10 @@ import {
   Globe,
   Rocket,
 } from "lucide-react";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 interface HeroProps {
-  dictionary: any;
+  dictionary: Dictionary;
   lang: string;
 }
 

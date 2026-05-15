@@ -22,8 +22,10 @@ import {
   Layers,
 } from "lucide-react";
 
+import type { Dictionary } from "@/lib/i18n/dictionaries";
+
 interface SkillsProps {
-  dictionary: any;
+  dictionary: Dictionary;
 }
 
 export const Skills = ({ dictionary }: SkillsProps) => {
@@ -91,6 +93,17 @@ export const Skills = ({ dictionary }: SkillsProps) => {
       itemBorder: "border-yellow-500/20 hover:border-yellow-500/40",
       bgColor: "bg-yellow-500/5",
       hoverBg: "hover:bg-yellow-500/10",
+    },
+    {
+      category: dictionary.skills.categories.ai,
+      items: dictionary.skills.items.ai,
+      icon: Sparkles,
+      color: "from-violet-500 to-indigo-500",
+      borderColor: "border-violet-500/30",
+      hoverBorder: "group-hover/card:border-violet-500",
+      itemBorder: "border-violet-500/20 hover:border-violet-500/40",
+      bgColor: "bg-violet-500/5",
+      hoverBg: "hover:bg-violet-500/10",
     },
   ];
 

@@ -16,9 +16,10 @@ import {
 import { SectionTitle } from "../ui/SectionTitle";
 import { Button } from "../ui/Button";
 import { FadeIn } from "../animations/FadeIn";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 interface ProjectsProps {
-  dictionary: any;
+  dictionary: Dictionary;
 }
 
 export const Projects = ({ dictionary }: ProjectsProps) => {
@@ -45,6 +46,7 @@ export const Projects = ({ dictionary }: ProjectsProps) => {
     "/projects/ecommerce.png",
     "/projects/ai-store.png",
     "/projects/invoice-generator.png",
+    "/projects/ai-email-client.png",
   ];
 
   // Handle image error
@@ -249,6 +251,8 @@ export const Projects = ({ dictionary }: ProjectsProps) => {
                       <div className="flex items-center gap-3 mt-auto">
                         <Button
                           href={project.live_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           size="md"
                           variant="gradient"
                           icon={<ExternalLink size={16} />}
@@ -259,6 +263,8 @@ export const Projects = ({ dictionary }: ProjectsProps) => {
                         </Button>
                         <Button
                           href={project.github_url}
+                          target="_blank"
+                          rel="noopener noreferrer"
                           size="md"
                           variant="outline"
                           icon={<Github size={16} />}
@@ -308,6 +314,8 @@ export const Projects = ({ dictionary }: ProjectsProps) => {
 
               <Button
                 href="https://github.com/JOHNADEBA"
+                target="_blank"
+                rel="noopener noreferrer"
                 size="xl"
                 variant="gradient"
                 icon={<Github size={20} />}
@@ -335,6 +343,8 @@ export const Projects = ({ dictionary }: ProjectsProps) => {
 
               <Button
                 href="https://devjayprojects.netlify.app"
+                target="_blank"
+                rel="noopener noreferrer"
                 size="xl"
                 variant="gradient"
                 icon={<Globe size={20} />}

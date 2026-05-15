@@ -9,6 +9,8 @@ interface ButtonProps {
   variant?: "primary" | "secondary" | "outline" | "ghost" | "gradient";
   size?: "sm" | "md" | "lg" | "xl";
   href?: string;
+  target?: string;
+  rel?: string;
   onClick?: () => void;
   className?: string;
   disabled?: boolean;
@@ -24,6 +26,8 @@ export const Button = ({
   variant = "primary",
   size = "md",
   href,
+  target,
+  rel,
   onClick,
   className,
   disabled = false,
@@ -59,7 +63,7 @@ export const Button = ({
         whileTap: { scale: 0.98 },
       };
 
-  const additionalProps = href ? {} : { type };
+  const additionalProps = href ? { target, rel } : { type };
 
   return (
     <Component

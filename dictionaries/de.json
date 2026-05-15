@@ -109,7 +109,9 @@
       "technologies": "Technologien",
       "technologies_value": "20+",
       "technologies_desc": "In meinem Werkzeugkasten"
-    }
+    },
+    "summary": "Senior Softwareentwickler mit umfassender Erfahrung in der Full-Stack-Entwicklung, spezialisiert auf moderne JavaScript-Frameworks (React, Angular, Vue.js) und Backend-Technologien (Node.js, NestJS, Python). Nachweisliche Erfolge bei der Bereitstellung skalierbarer, leistungsstarker Lösungen für Regierungs-, Fintech-, E-Commerce- und Agrarsektoren. Starker Teamplayer und Mentor mit Leidenschaft für sauberen Code, agile Praktiken und funktionsübergreifende Zusammenarbeit.",
+    "languages": ["Englisch: Fließend", "Slowenisch: A2", "Deutsch: A1"]
   },
   "skills": {
     "title": "Technische Fähigkeiten",
@@ -139,14 +141,16 @@
       "backend": "Backend",
       "database": "Datenbanken",
       "devops": "DevOps & Werkzeuge",
-      "other": "Sonstiges"
+      "other": "Sonstiges",
+      "ai": "KI & LLMs"
     },
     "items": {
       "frontend": "HTML, CSS, SASS, Tailwind CSS, React, Next.js, Angular, AngularJS, Vue.js, TypeScript, Redux, Angular Material, PrimeNG",
       "backend": "Node.js, Express, NestJS, Python, PHP (CodeIgniter)",
       "database": "PostgreSQL, MySQL, MongoDB, Prisma ORM",
       "devops": "Docker, Git (BitBucket, GitLab), Jira, Confluence, Jest, Postman, Linux",
-      "other": "RESTful APIs, Keycloak, Leaflet, Chart.js, GeoJSON, Agile/Scrum"
+      "other": "RESTful APIs, Keycloak, Leaflet, Chart.js, GeoJSON, Agile/Scrum",
+      "ai": "Claude AI, GitHub Copilot, ChatGPT, Cursor, Gemini, Vercel AI SDK, Anthropic SDK, Prompt Engineering"
     }
   },
   "experience": {
@@ -292,6 +296,13 @@
         "tags": ["Nextjs", "Tailwind", "Clerk", "Neon", "PostgreSQL", "Prisma", "Vercel"],
         "live_url": "https://invoice-generator-roan-eta.vercel.app",
         "github_url": "https://github.com/JOHNADEBA/invoice-generator"
+      },
+      {
+        "title": "MailAI",
+        "description": "KI-gestützter universeller E-Mail-Client als PWA für Gmail und Outlook. Bietet intelligente Kategorisierung, KI-generierte Antwortentwürfe, Thread-Zusammenfassungen und Prioritätsbewertung – alles powered by Claude AI.",
+        "tags": ["Next.js", "TypeScript", "Tailwind", "Claude AI", "OAuth2", "Zustand", "Vercel"],
+        "live_url": "https://ai-email-client-three.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/ai-email-client"
       }
     ]
   },

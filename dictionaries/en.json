@@ -109,7 +109,9 @@
       "technologies": "Technologies",
       "technologies_value": "20+",
       "technologies_desc": "In my toolkit"
-    }
+    },
+    "summary": "Senior Software Engineer with extensive experience in full-stack development, specializing in modern JavaScript frameworks (React, Angular, Vue.js) and backend technologies (Node.js, NestJS, Python). Proven record of delivering scalable, high-performance solutions for government, fintech, e-commerce, and agricultural sectors. Strong collaborator and mentor with a passion for clean code, agile practices, and cross-functional teamwork.",
+    "languages": ["English: Fluent", "Slovenian: A2", "German: A1"]
   },
   "skills": {
     "title": "Technical Skills",
@@ -139,14 +141,16 @@
       "backend": "Backend",
       "database": "Database",
       "devops": "DevOps & Tools",
-      "other": "Other"
+      "other": "Other",
+      "ai": "AI & LLMs"
     },
     "items": {
       "frontend": "HTML, CSS, SASS, Tailwind CSS, React, Next.js, Angular, AngularJS, Vue.js, TypeScript, Redux, Angular Material, PrimeNG",
       "backend": "Node.js, Express, NestJS, Python, PHP (CodeIgniter)",
       "database": "PostgreSQL, MySQL, MongoDB, Prisma ORM",
       "devops": "Docker, Git (BitBucket, GitLab), Jira, Confluence, Jest, Postman, Linux",
-      "other": "RESTful APIs, Keycloak, Leaflet, Chart.js, GeoJSON, Agile/Scrum"
+      "other": "RESTful APIs, Keycloak, Leaflet, Chart.js, GeoJSON, Agile/Scrum",
+      "ai": "Claude AI, GitHub Copilot, ChatGPT, Cursor, Gemini, Vercel AI SDK, Anthropic SDK, Prompt Engineering"
     }
   },
   "experience": {
@@ -292,6 +296,13 @@
         "tags": ["Nextjs", "Tailwind", "Clerk", "Neon", "PostgreSQL", "Prisma", "Vercel"],
         "live_url": "https://invoice-generator-roan-eta.vercel.app",
         "github_url": "https://github.com/JOHNADEBA/invoice-generator"
+      },
+      {
+        "title": "MailAI",
+        "description": "AI-powered universal email client PWA supporting Gmail and Outlook. Features smart categorization, AI-generated reply drafts, thread summarization, and priority scoring — all powered by Claude AI.",
+        "tags": ["Next.js", "TypeScript", "Tailwind", "Claude AI", "OAuth2", "Zustand", "Vercel"],
+        "live_url": "https://ai-email-client-three.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/ai-email-client"
       }
     ]
   },

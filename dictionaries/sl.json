@@ -109,7 +109,9 @@
       "technologies": "Tehnologij",
       "technologies_value": "20+",
       "technologies_desc": "V mojem naboru"
-    }
+    },
+    "summary": "Višji programski inženir z obsežnimi izkušnjami na področju razvoja celovitih rešitev, specializiran za sodobna JavaScript ogrodja (React, Angular, Vue.js) in zaledne tehnologije (Node.js, NestJS, Python). Dokazano uspešen pri zagotavljanju skalabilnih, visoko zmogljivih rešitev za vladne, finančne, e-trgovinske in kmetijske sektorje. Močan sodelavec in mentor s strastjo do čiste kode, agilnih praks in medfunkcijskega timskega dela.",
+    "languages": ["Angleščina: tekoče", "Slovenščina: A2", "Nemščina: A1"]
   },
   "skills": {
     "title": "Tehnične veščine",
@@ -139,14 +141,16 @@
       "backend": "Backend",
       "database": "Podatkovne baze",
       "devops": "DevOps in orodja",
-      "other": "Drugo"
+      "other": "Drugo",
+      "ai": "UI & LLM-ji"
     },
     "items": {
       "frontend": "HTML, CSS, SASS, Tailwind CSS, React, Next.js, Angular, AngularJS, Vue.js, TypeScript, Redux, Angular Material, PrimeNG",
       "backend": "Node.js, Express, NestJS, Python, PHP (CodeIgniter)",
       "database": "PostgreSQL, MySQL, MongoDB, Prisma ORM",
       "devops": "Docker, Git (BitBucket, GitLab), Jira, Confluence, Jest, Postman, Linux",
-      "other": "RESTful API-ji, Keycloak, Leaflet, Chart.js, GeoJSON, Agile/Scrum"
+      "other": "RESTful API-ji, Keycloak, Leaflet, Chart.js, GeoJSON, Agile/Scrum",
+      "ai": "Claude AI, GitHub Copilot, ChatGPT, Cursor, Gemini, Vercel AI SDK, Anthropic SDK, Prompt Engineering"
     }
   },
   "experience": {
@@ -292,6 +296,13 @@
         "tags": ["Nextjs", "Tailwind", "Clerk", "Neon", "PostgreSQL", "Prisma", "Vercel"],
         "live_url": "https://invoice-generator-roan-eta.vercel.app",
         "github_url": "https://github.com/JOHNADEBA/invoice-generator"
+      },
+      {
+        "title": "MailAI",
+        "description": "E-poštni odjemalec na osnovi umetne inteligence (PWA) za Gmail in Outlook. Vključuje pametno kategorizacijo, osnutke odgovorov z umetno inteligenco, povzetke pogovorov in ocenjevanje prioritet – vse poganjano s Claude AI.",
+        "tags": ["Next.js", "TypeScript", "Tailwind", "Claude AI", "OAuth2", "Zustand", "Vercel"],
+        "live_url": "https://ai-email-client-three.vercel.app",
+        "github_url": "https://github.com/JOHNADEBA/ai-email-client"
       }
     ]
   },

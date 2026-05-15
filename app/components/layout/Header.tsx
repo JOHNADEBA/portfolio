@@ -9,10 +9,11 @@ import { Menu, X, Download } from "lucide-react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { Button } from "../ui/Button";
 import { cn } from "@/lib/utils/cn";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 interface HeaderProps {
   lang: string;
-  dictionary: any;
+  dictionary: Dictionary;
 }
 
 export const Header = ({ lang, dictionary }: HeaderProps) => {

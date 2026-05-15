@@ -11,9 +11,10 @@ import {
   Code2,
   Building2,
 } from "lucide-react";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 interface ExperienceProps {
-  dictionary: any;
+  dictionary: Dictionary;
 }
 
 export const Experience = ({ dictionary }: ExperienceProps) => {

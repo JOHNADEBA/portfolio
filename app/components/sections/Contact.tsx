@@ -23,9 +23,10 @@ import {
 import { SectionTitle } from "../ui/SectionTitle";
 import { Button } from "../ui/Button";
 import { FadeIn } from "../animations/FadeIn";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 interface ContactProps {
-  dictionary: any;
+  dictionary: Dictionary;
   lang: string;
 }
 

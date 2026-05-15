@@ -20,9 +20,10 @@ import {
   Download,
 } from "lucide-react";
 import { Button } from "../ui/Button";
+import type { Dictionary } from "@/lib/i18n/dictionaries";
 
 interface AboutProps {
-  dictionary: any;
+  dictionary: Dictionary;
   lang: string;
 }
 
@@ -449,7 +450,7 @@ export const About = ({ dictionary, lang }: AboutProps) => {
                 className="prose prose-lg dark:prose-invert max-w-none"
               >
                 <p className="text-lg text-secondary-300 leading-relaxed">
-                  {dictionary.about.description}
+                  {dictionary.about.summary}
                 </p>
               </motion.div>
 
